@@ -7,7 +7,7 @@ An autoencoder is a neural networks that are designed to reconstruct the origina
 ### Here's the basic idea of the project :
 1. Choose an appropriate dataset
 2. Resize the Images to 256\*256
-3. Convert from RGB --> Lab colorspace
+3. Convert from `RGB --> Lab` colorspace
   *   Lab colorspace comprises of 3 channels
       * L : Lightness. values range from `1 - 100`
       * A : represents colors from green to red. values range from `-128 to +128`
